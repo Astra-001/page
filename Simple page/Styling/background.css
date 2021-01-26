@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+#access, svg ,#color{
+    color:#66023C;
+    /* background-color: #66023C; */
+    
+}
+#mealCategoryDiv{
+    border-bottom:1px solid #000;
+}
+#mealButton{
+    padding: 1rem
+;
+}
+.active{
+    background-color: #66023C;
+    color: #fff;
+}
+#mealButton .mealBox{
+    border: 1px solid #000;
+    display: flex;
+    padding: .5rem;
+    border-radius: 4px;
+    justify-content: center;
+}
+#mealBoxText{
+    text-align: center;
+    font-size: 15px;
+}
+/* Selection Box  */
+
+#selectionBox{
+    border-bottom: 1px solid rgb(126, 122, 122) ;
+    padding: 2rem;
+}
+#selectionBox .row{
+    margin-bottom: 1rem;
+    /* border: 1px solid black; */
+}
+.mealClickCount{
+    color: #66023C;
+    font-size: 13px;
+    font-weight: bold;
+}
+.box{
+    border: 1px solid rgb(100, 97, 97);
+    text-align: center;
+    font-weight: normal;
+    border-radius: 4px;
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+.active1{
+    color: #66023C;
+    border:2px solid #66023C;
+}
+ #submit{
+     background-color: #66023C;
+     width: 100%;
+     color:#fff;
+ }
